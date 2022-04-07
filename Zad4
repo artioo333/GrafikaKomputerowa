@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="600px" height="600px"
+viewBox="0 0 4 4"
+preserveAspectRatio="xMidYMid">
+<defs>
+<g id ="polygon" fill="white"stroke-width="0.02" stroke="black">
+<polygon points ="2,1 1.91,1.40 1.66,1.74 1.30,1.95 0.89,1.99 0.50,1.86 0.19,1.58 0.02,1.20 
+0.02,0.79 0.19,0.41 0.50,0.13 0.89,0 1.30,0.04 1.66,0.25 1.91,0.59" />
+
+<line x1="1" y1="1" x2="2" y2="1" />
+<line x1="1" y1="1" x2="1.91" y2="1.40" />
+<line x1="1" y1="1" x2="1.66" y2="1.74" />
+<line x1="1" y1="1" x2="1.30" y2="1.95" />
+<line x1="1" y1="1" x2="0.89" y2="1.99" />
+<line x1="1" y1="1" x2="0.50" y2="1.86" />
+<line x1="1" y1="1" x2="0.19" y2="1.58" />
+<line x1="1" y1="1" x2="0.02" y2="1.20" />
+<line x1="1" y1="1" x2="0.02" y2="0.79" />
+<line x1="1" y1="1" x2="0.19" y2="0.41" />
+<line x1="1" y1="1" x2="0.50" y2="0.13" />
+<line x1="1" y1="1" x2="0.89" y2="0" />
+<line x1="1" y1="1" x2="1.30" y2="0.04" />
+<line x1="1" y1="1" x2="1.66" y2="0.25" />
+<line x1="1" y1="1" x2="1.91" y2="0.59" />
+
+<<animateTransform attributeName="transform" type="rotate" from="0 1 1" to="360 1 1" dur="10s" repeatCount="indefinite" />
+</g>
+<g id ="triangle" stroke-width="0.01" stroke="black">
+<polygon points="2,3.5 2.4,0.55 3,3.5"/>
+</g>
+<g id="line" stroke-width="0.2" stroke="red" >
+<line x1="0.90" y1="0.95"  x2="5.60" y2="1.95" />
+</g>
+</defs>
+
+<use xlink:href="#polygon" transform="scale(0.2,0.2) translate(12.5,0.5)" />
+<use xlink:href="#polygon" transform="scale(0.2,0.2) translate(17,1.4)" />
+<use xlink:href="#line" transform="scale(0.2,0.2) translate(12.5,0.5)" />
+<use xlink:href="#triangle" fill="blue" transform="scale(0.2,0.2) translate(13.3,1.4)" /> 
+
+<use xlink:href="#polygon" transform="scale(0.3,0.3) translate(0.5,0.5)" />
+<use xlink:href="#polygon" transform="scale(0.3,0.3) translate(5,1.4)" />
+<use xlink:href="#line" transform="scale(0.3,0.3) translate(0.5,0.5)" />
+<use xlink:href="#triangle" fill="grey" transform="scale(0.3,0.3) translate(1.3,1.4)" /> 
+
+<use xlink:href="#polygon" transform="scale(0.35,0.35) translate(4,3.5)" />
+<use xlink:href="#polygon" transform="scale(0.35,0.35) translate(8.5,4.4)" />
+<use xlink:href="#line" transform="scale(0.35,0.35) translate(4,3.5)" />
+<use xlink:href="#triangle" fill="green" transform="scale(0.35,0.35) translate(4.8,4.4)" />
+
+</svg>
